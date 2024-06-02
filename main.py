@@ -10,3 +10,8 @@ def run():
 
 if __name__ == "__main__":
     run()
+    play_again = input("Play Again? y/n: ")
+    if play_again == "y":
+        run()
+    else:
+        print("Thanks for Playing! Bye!")
